@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+</head>
+<body>
+    <style>
+        .days{
+            background-color: black;
+            color: white;
+            font-size: 20px;
+            width: 70px;
+            border-radius: 10px;
+            text-align: center;
+        }
+        .d-flex{
+            gap: 20px;
+        }
+        .space{
+            gap: 30px;
+        }
+        .container{
+            width: 80%;
+        }
+        .deadline-format{
+            width: 100%;
+            justify-content: center;
+            justify-content: space-around;
+        }
+        .top{
+            margin-top: 120px;
+        }
+        img{
+            height: 60vh;
+        }
+        .align{
+            margin: auto;
+        }
+    </style>
+    <div class="container d-flex space top">
+        <div class="image" style="text-align: center;">
+            <img src="./WhatsApp Image 2023-12-04 at 16.50.11_65ab4199.jpg" alt="">
+        </div>
+
+        <article class="align">
+            <h2 style="color: aqua;">Victor's Giveaway</h2>
+            <h3 id="giveaway">
+                Countdown starts here
+            </h3>
+            <div class="content">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Ullam provident facilis nulla in? Commodi aliquam adipisci laborum dicta 
+                alias ea porro inventore fugiat. Culpa corrupti ratione assumenda? Quisquam, officiis vitae?
+            
+            </div>
+
+            <div class=" deadline mt-5">
+                <div class="deadline-format d-flex">
+                    <div class="days">
+                        <h4 id="day" class="day" style="font-size: 30px; background-color: red;">21</h4>
+                        <span>Days</span>
+                    </div>
+                    <div class="days">
+                        <h4 id="hour" class="day" style="font-size: 30px; background-color: red;">21</h4>
+                        <span>Hours</span>
+                    </div>
+                    <div class="days">
+                        <h4 id="min" class="day" style="font-size: 30px; background-color: red;">21</h4>
+                        <span>Mins</span>
+                    </div>
+                    <div class="days">
+                        <h4 id="sec" class="day" style="font-size: 30px; background-color: red;">21</h4>
+                        <span>Secs</span>
+                    </div>
+                   
+
+                </div>
+                
+            </div>
+
+        </article>
+    </div>
+    <script src="./countdown.js"></script>
+</body>
+</html>
